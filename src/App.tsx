@@ -1,10 +1,10 @@
 import './App.css';
-import MuiLayout from './components/MuiLayout';
+import MuiTestComponent from './components/MuiTestComponent';
 
 function App() {
   return (
     <div className="App">
-      <MuiLayout />
+      <MuiTestComponent />
     </div>
   );
 }
