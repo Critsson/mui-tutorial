@@ -1,10 +1,12 @@
 import './App.css';
-import MuiTestComponent from './components/MuiTestComponent';
+import MuiBox from './components/MuiBox';
+import MuiCard from './components/MuiCard';
+import MuiAccordion from './components/MuiAccordion';
 
 function App() {
   return (
     <div className="App">
-      <MuiTestComponent />
+      <MuiAccordion />
     </div>
   );
 }
