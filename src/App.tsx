@@ -1,12 +1,10 @@
 import './App.css';
-import MuiBox from './components/MuiBox';
-import MuiCard from './components/MuiCard';
-import MuiAccordion from './components/MuiAccordion';
+import {MuiDrawer} from './components/MuiDrawer';
 
 function App() {
   return (
     <div className="App">
-      <MuiAccordion />
+      <MuiDrawer />
     </div>
   );
 }
