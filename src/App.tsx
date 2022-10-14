@@ -1,10 +1,10 @@
 import './App.css';
-import {MuiDrawer} from './components/MuiDrawer';
+import {MuiSpeedial} from './components/MuiSpeedial';
 
 function App() {
   return (
     <div className="App">
-      <MuiDrawer />
+      <MuiSpeedial />
     </div>
   );
 }
