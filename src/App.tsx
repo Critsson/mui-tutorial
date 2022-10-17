@@ -1,10 +1,10 @@
 import './App.css';
-import {MuiAvatar} from './components/MuiAvatar';
+import {MuiSkeleton} from './components/MuiSkeleton';
 
 function App() {
   return (
     <div className="App">
-      <MuiAvatar />
+      <MuiSkeleton />
     </div>
   );
 }

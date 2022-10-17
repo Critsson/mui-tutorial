@@ -1,4 +1,7 @@
-
+body {
+  padding-top: 2vw;
+  padding-left: 2vw;
+}
 
 .App-logo {
   height: 40vmin;
