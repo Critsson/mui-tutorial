@@ -1,11 +1,22 @@
 import './App.css';
-import {MuiSkeleton} from './components/MuiSkeleton';
+import MuiButton from './components/MuiButton';
+import { createTheme, colors, ThemeProvider } from "@mui/material"
+
+const theme = createTheme({
+  palette: {
+    secondary: {
+      main: "#2E294E"
+    }
+  }
+})
 
 function App() {
   return (
-    <div className="App">
-      <MuiSkeleton />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <MuiButton />
+      </div>
+    </ThemeProvider>
   );
 }
 

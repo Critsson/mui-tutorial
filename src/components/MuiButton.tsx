@@ -18,7 +18,7 @@ export default function MuiButton() {
         <Stack spacing="1vw" direction="column">
             <Stack spacing="2vw" direction="row">
                 <Button variant="text" href="https://google.com" color="secondary">Text</Button>
-                <Button variant="contained" disableElevation size="small">Text</Button>
+                <Button variant="contained" color="secondary" disableElevation size="small">Text</Button>
                 <Button variant="outlined" color="secondary">Text</Button>
                 <Button variant="outlined" sx={{ width: "8vw", height: "5vw", fontSize: "1.5vw" }} startIcon={<SendIcon sx={{ height: "1.5vw", width: "1.5vw" }} />} endIcon={<SendIcon sx={{ height: "1.5vw", width: "1.5vw" }} />}>Send</Button>
                 <IconButton>
